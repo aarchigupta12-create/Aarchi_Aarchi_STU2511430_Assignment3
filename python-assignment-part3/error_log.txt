@@ -1,0 +1,5 @@
+[2026-04-05 07:01:11.268845] ERROR in fetch_products: ConnectionError — HTTPSConnectionPool(host='this-host-does-not-exist-xyz.com', port=443): Max retries exceeded with url: /api (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ab034e22570>: Failed to resolve 'this-host-does-not-exist-xyz.com' ([Errno -2] Name or service not known)"))
+[2026-04-05 07:01:11.437575] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 999
+[2026-04-05 07:03:20.641460] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 999
+[2026-04-05 07:12:12.605265] ERROR in fetch_products: ConnectionError — HTTPSConnectionPool(host='this-host-does-not-exist-xyz.com', port=443): Max retries exceeded with url: /api (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ab027f2c1a0>: Failed to resolve 'this-host-does-not-exist-xyz.com' ([Errno -2] Name or service not known)"))
+[2026-04-05 07:12:12.784660] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 999
